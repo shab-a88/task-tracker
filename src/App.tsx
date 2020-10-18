@@ -1,17 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import Counter from './features/counter/Counter';
 import './App.css';
-import Form from './Form/Form';
+import Form from './Form/FormList';
 import Title from './Title';
+import NewCounter from './Counter/NewCounter';
+import MyDocument from './Document';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Just checking</h1>
         <Title />
-        <Counter />
         <Form />
+        <NewCounter />
+        <MyDocument />
       </header>
     </div>
   );
